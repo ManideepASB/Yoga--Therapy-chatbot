@@ -23,10 +23,10 @@ Yoga Assistant Bot is an AI-powered chatbot designed to provide accurate, respec
    cd yoga-assistant-bot
    ```
 # Install the required dependencies:
-'''pip install -r requirements.txt'''
-Set your OpenAI API key:
+```pip install -r requirements.txt```
+# Set your OpenAI API key:
  ```export OPENAI_API_KEY="your_openai_api_key" ```
-Usage
+# Usage
 1. Create the Vector Database
 Run the script to process PDF documents and create a FAISS vector database:
  ```python create_vector_db.py ```
